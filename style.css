@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Vollkorn', serif;
+}
+.black{
+    color: whitesmoke;
+    background-color: black;
+}
+.white{
+    color: black;
+    background-color: white;
+}
+.gold{
+    color: rebeccapurple;
+    background-color: gold;
+}
+#footer{
+    background-color: black;
+    color: red;
+}
+.flex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 0%
+}
+.peeps{
+    padding: 30px;
+}
+
+input[type="submit"]{
+    display: block;
+    background-color: rgb(201, 160, 25);
+    color: white;
+    margin: auto;
+    width: 150px;
+    padding: 10px;
+    border-color: rgb(51, 22, 214);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type="checkbox"]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.PA{
+   margin: auto; 
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
